@@ -39,3 +39,4 @@ Thumbs.db
 *.jpg
 *.csv
 scripts/cache/*
+.env
