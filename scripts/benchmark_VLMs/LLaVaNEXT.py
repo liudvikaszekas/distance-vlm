@@ -17,7 +17,7 @@ model = LlavaNextForConditionalGeneration.from_pretrained(
         quantization_config=quantization_config, 
         torch_dtype=torch.float16, 
         low_cpu_mem_usage=True,
-        use_flash_attention_2=True
+        use_flash_attention_2=True,
         device_map="auto"
     ).to("cuda:0")
 
